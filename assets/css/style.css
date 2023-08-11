@@ -1,0 +1,230 @@
+@font-face {
+    font-family: Fraunces;
+    src: url('../fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url('../fonts/manrope/static/Manrope-Regular.ttf');
+}
+
+.heading {
+    font-family: Fraunces;
+}
+
+.heading-l {
+    font-size: 80px;
+    font-weight: 600;
+    color: #fff;
+
+    width: 635px;
+    text-align: center;
+}
+
+.heading-m {
+    font-size: 56px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.heading-s {
+    font-size: 32px;
+    font-weight: 600;
+    color: #24053E;
+}
+
+p,
+a,
+.button {
+    font-family: Manrope;
+}
+
+.paragraph-1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #24053E;
+}
+
+.paragraph-2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #fff;
+}
+
+a {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.18px;
+    color: #fff;
+    border-bottom: 3px solid #44FFA1;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #44FFA1;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: 700;
+    color: #24053E;
+    letter-spacing: -0.18px;
+
+    width: 161px;
+    height: 61px;
+    background: #44FFA1;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    border: 2px solid #44FFA1;
+    background: #24053E;
+    color: #44FFA1;
+}
+
+.head {
+    display: flex;
+    flex-flow: column wrap;
+    height: 730px;
+    /* background: #24053E; */
+    padding: 56px 165px;
+    gap: 55px;
+    background: url('../img/head-bg.svg');
+    position: relative;
+}
+
+.hero {
+    width: 715px;
+    position: absolute;
+    top: 500px;
+    left: 360px;
+}
+
+.head .menu {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.info .h-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    height: 960px;
+    padding: 481px 161px 171px;
+    justify-content: center;
+}
+
+.body .points {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+.points .point {
+    display: flex;
+    flex-direction: column;
+    /* width: 354px; */
+    text-align: center;
+    align-items: center;
+    gap: 56px;
+}
+
+.point .point-txt {
+    display: flex;
+    flex-direction: column;
+    width: 354px;
+    gap: 26px;
+}
+
+.points .heading-num {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 30.5px;
+    border: 1px solid #584D62;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 110px;
+}
+
+.foot .card-and-photo {
+    display: flex;
+    width: 1143px;
+    height: 586px;
+    position: relative;
+}
+
+.foot .card {
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+    padding: 64px;
+    gap: 32px;
+    background: #24053E;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.foot .photo-container {
+    width: 477px;
+    height: 477px;
+}
+
+.photo {
+    max-width: 100%;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    width: 116px;
+    height: 102px;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-facebook-square,
+.fa-twitter,
+.fa-instagram {
+    font-size: 20px;
+    color: #584D62;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+    cursor: pointer;
+    color: rgba(36, 5, 62, 1);
+}

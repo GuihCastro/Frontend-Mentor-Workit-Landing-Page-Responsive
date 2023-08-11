@@ -1,0 +1,141 @@
+@media(max-width: 768px) {
+    .head {
+        height: 540px;
+        padding: 39px;
+        background: url('../img/head-bg-tablet.svg');
+    }
+
+    .hero {
+        width: 479px;
+        left: 150px;
+        top: 480px;
+    }
+
+    .body {
+        height: 920px;
+        padding: 341px 98px 471px;
+    }
+
+    .body .points {
+        flex-direction: column;
+    }
+
+    .points .point {
+        flex-direction: row;
+    }
+
+    .point .point-txt {
+        width: 493px;
+        text-align: left;
+    }
+
+    .foot {
+        gap: 80px;
+    }
+
+    .foot .card-and-photo {
+        width: 689px;
+        height: 526px;
+    }
+
+    .foot .card {
+        width: 514px;
+        padding: 48px;
+        gap: 24px;
+    }
+
+    .foot .photo-container {
+        width: 281px;
+        height: 281px;
+    }
+
+    .heading-m {
+        font-size: 48px;
+    }
+
+    .paragraph-2 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media(max-width: 425px) {
+    .head {
+        height: 481px;
+        padding: 37px 16px;
+        background: url('../img/head-bg-mobile.svg');
+    }  
+
+    .head .menu {
+        height: 24px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    .head .info {
+        width: 343px;
+    }
+
+    .heading-l {
+        font-size: 50px;
+        width: 343px;
+    }
+
+    .hero {
+        width: 298px;
+        left: 36px;
+        top: 389px;
+    }
+
+    .body {
+        height: 1070px;
+        padding: 150px 16px 71px;
+    }
+
+    .body .points {
+        gap: 40px;
+    }
+
+    .heading-s {
+        font-size: 28px;
+    }
+
+    .paragraph-1 {
+        font-size: 16px;
+    }
+
+    .points .point {
+        flex-direction: column;
+    }
+
+    .points .heading-num {
+        width: 48px;
+        height: 46px;
+    }
+
+    .point .point-txt {
+        width: 343px;
+        text-align: center;
+    }
+
+    .foot .card-and-photo {
+        flex-direction: column;
+        width: 343px;
+        height: 603px;
+        align-items: center;
+    }
+
+    .foot .card {
+        width: 343px;
+        padding: 31px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .heading-m {
+        font-size: 32px;
+    }
+}
+
