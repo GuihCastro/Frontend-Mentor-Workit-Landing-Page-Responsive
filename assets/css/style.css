@@ -89,18 +89,24 @@ a:hover {
     display: flex;
     flex-flow: column wrap;
     height: 730px;
-    /* background: #24053E; */
     padding: 56px 165px;
     gap: 55px;
-    background: url('../img/head-bg.svg');
+    background: url('../img/head-bg.svg') no-repeat;
+    background-size: contain;
     position: relative;
 }
 
-.hero {
-    width: 715px;
+.hero-container {
+    max-width: 715px;
+    display: flex;
+    flex-wrap: wrap;
     position: absolute;
     top: 500px;
-    left: 360px;
+    align-self: center;
+}
+
+.hero {
+    width: 100%;
 }
 
 .head .menu {
@@ -127,9 +133,10 @@ a:hover {
 
 .body {
     display: flex;
-    height: 960px;
+    min-height: 960px;
     padding: 481px 161px 171px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .body .points {
@@ -141,7 +148,6 @@ a:hover {
 .points .point {
     display: flex;
     flex-direction: column;
-    /* width: 354px; */
     text-align: center;
     align-items: center;
     gap: 56px;

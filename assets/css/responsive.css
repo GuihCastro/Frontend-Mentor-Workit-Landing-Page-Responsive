@@ -2,12 +2,16 @@
     .head {
         height: 540px;
         padding: 39px;
-        background: url('../img/head-bg-tablet.svg');
+        background: url('../img/head-bg-tablet.svg') no-repeat;
+        background-size: contain
+    }
+
+    .hero-container {
+        max-width: 479px;
     }
 
     .hero {
-        width: 479px;
-        left: 150px;
+        width: 100%;
         top: 480px;
     }
 
@@ -63,8 +67,9 @@
     .head {
         height: 481px;
         padding: 37px 16px;
-        background: url('../img/head-bg-mobile.svg');
-    }  
+        background: url('../img/head-bg-mobile.svg') no-repeat;
+        background-size: contain;
+    }
 
     .head .menu {
         height: 24px;
@@ -83,9 +88,8 @@
         width: 343px;
     }
 
-    .hero {
-        width: 298px;
-        left: 36px;
+    .hero-container {
+        max-width: 298px;
         top: 389px;
     }
 
@@ -138,4 +142,3 @@
         font-size: 32px;
     }
 }
-
